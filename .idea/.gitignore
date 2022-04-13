@@ -6,4 +6,4 @@
 .idea
 *.class
 *.log
-/out
+.out
