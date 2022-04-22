@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DisemvowelTrollsTest {
+public class DisemvowelTrollsTest {
 
     @Test
-    void disemvowelTrollsTests() {
+    public void disemvowelTrollsTests() {
         assertEquals("Ths wbst s fr lsrs LL!",
                 DisemvowelTrolls.disemvowelTrolls("This website is for losers LOL!"));
 

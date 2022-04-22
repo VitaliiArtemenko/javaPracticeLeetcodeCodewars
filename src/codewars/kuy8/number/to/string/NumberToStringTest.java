@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NumberToStringTest {
+public class NumberToStringTest {
 
     @Test
-    void numberToString1() {
+    public void numberToString1() {
         assertEquals("67", NumberToString.numberToString1(67));
         assertEquals("88888", NumberToString.numberToString1(88888));
         assertEquals("-1", NumberToString.numberToString1(-1));
@@ -15,7 +15,7 @@ class NumberToStringTest {
     }
 
     @Test
-    void numberToString2() {
+    public void numberToString2() {
         assertEquals("67", NumberToString.numberToString2(67));
         assertEquals("88888", NumberToString.numberToString2(88888));
         assertEquals("-1", NumberToString.numberToString2(-1));
@@ -23,7 +23,7 @@ class NumberToStringTest {
     }
 
     @Test
-    void numberToString3() {
+    public void numberToString3() {
         assertEquals("67", NumberToString.numberToString3(67));
         assertEquals("88888", NumberToString.numberToString3(88888));
         assertEquals("-1", NumberToString.numberToString3(-1));

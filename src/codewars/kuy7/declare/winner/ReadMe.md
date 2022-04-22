@@ -10,7 +10,6 @@ You can mutate the <code>Fighter</code> objects.</p>
 <h3>Example:</h3>
 <pre>
 declare_winner(Fighter("Lew", 10, 2), Fighter("Harry", 5, 4), "Lew") => "Lew"
-
 Lew attacks Harry; Harry now has 3 health.
 Harry attacks Lew; Lew now has 6 health.
 Lew attacks Harry; Harry now has 1 health.

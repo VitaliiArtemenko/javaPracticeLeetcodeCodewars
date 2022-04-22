@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AbbreviateTwoWordsTest {
 
     @Test
-    void abbreviateTwoWordsTest() {
+    public void abbreviateTwoWordsTest() {
         assertEquals("S.H", AbbreviateTwoWords.abbreviateTwoWords("Sam Harris"));
         assertEquals("P.F", AbbreviateTwoWords.abbreviateTwoWords("patrick Feena"));
         assertEquals("E.C", AbbreviateTwoWords.abbreviateTwoWords("Evan coles"));

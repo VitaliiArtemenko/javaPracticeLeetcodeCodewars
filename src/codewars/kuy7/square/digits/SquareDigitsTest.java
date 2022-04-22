@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SquareDigitsTest {
+public class SquareDigitsTest {
 
     @Test
-    void squareDigitsTest() {
+    public void squareDigitsTest() {
         assertEquals(811181, SquareDigits.squareDigits(9119));
         assertEquals(0, SquareDigits.squareDigits(0));
         assertEquals(149162536, SquareDigits.squareDigits(123456));

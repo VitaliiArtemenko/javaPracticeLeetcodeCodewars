@@ -1,6 +1,7 @@
 package total.points;
 
 public class TotalPoints {
+
     public static int points(String[] games) {
         int totalPoints = 0;
         for (String game : games) {

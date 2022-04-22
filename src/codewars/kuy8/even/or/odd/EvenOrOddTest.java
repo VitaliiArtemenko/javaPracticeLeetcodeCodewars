@@ -4,9 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class EvenOrOddTest {
+public class EvenOrOddTest {
+
     @Test
-    void basicTests() {
+    public void basicTests() {
         assertEquals("Even", EvenOrOdd.evenOrOdd(6));
         assertEquals("Even", EvenOrOdd.evenOrOdd(8));
         assertEquals("Even", EvenOrOdd.evenOrOdd(123456));

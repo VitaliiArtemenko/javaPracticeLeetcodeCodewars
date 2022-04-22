@@ -3,6 +3,7 @@ package sum.of.differences;
 import java.util.Arrays;
 
 public class SumOfDifferences {
+
     public static int sumOfDifferences(int[] arr) {
         int sum = 0;
         Arrays.sort(arr);

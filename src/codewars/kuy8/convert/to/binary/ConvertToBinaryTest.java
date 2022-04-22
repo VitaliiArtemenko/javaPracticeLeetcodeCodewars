@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ConvertToBinaryTest {
+public class ConvertToBinaryTest {
 
     @Test
-    void convertToBinaryTest() {
+    public void convertToBinaryTest() {
         assertEquals(1, ConvertToBinary.convertToBinary(1));
         assertEquals(10, ConvertToBinary.convertToBinary(2));
         assertEquals(11, ConvertToBinary.convertToBinary(3));
