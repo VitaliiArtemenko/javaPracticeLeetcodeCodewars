@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CorrectTest {
+public class CorrectTest {
 
     @Test
-    void correctTest() {
+    public void correctTest() {
         assertEquals("IF-RUDYARD KIPLING", Correct.correct("1F-RUDYARD K1PL1NG"));
         assertEquals("ROBERT MERLE - THE DAY OF THE DOLPHIN",
                 Correct.correct("R0BERT MERLE - THE DAY 0F THE D0LPH1N"));

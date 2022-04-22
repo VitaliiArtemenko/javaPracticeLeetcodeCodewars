@@ -7,7 +7,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SortMyTextbooksTest {
+public class SortMyTextbooksTest {
+
    private List<String> input;
    private List<String> expected;
 

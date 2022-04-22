@@ -1,6 +1,7 @@
 package square.digits;
 
 public class SquareDigits {
+
     public static int squareDigits(int n) {
         StringBuilder result = new StringBuilder();
         String[] numbers = String.valueOf(n).split("");

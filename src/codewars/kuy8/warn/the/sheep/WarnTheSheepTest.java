@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WarnTheSheepTest {
+public class WarnTheSheepTest {
 
     @Test
-    void warnTheSheepTest() {
+    public void warnTheSheepTest() {
         assertEquals("Oi! Sheep number 2! You are about to be eaten by a wolf!",
                 WarnTheSheep.warnTheSheep(new String[]{"sheep", "sheep", "sheep", "sheep", "sheep", "wolf", "sheep", "sheep"}));
         assertEquals("Oi! Sheep number 5! You are about to be eaten by a wolf!",

@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DeclareWinnerTest {
+public class DeclareWinnerTest {
 
     @Test
-    void declareWinnerTest() {
+    public void declareWinnerTest() {
         assertEquals("Lew",
                 DeclareWinner.declareWinner(new Fighter("Lew", 10, 2),
                         new Fighter("Harry", 5, 4), "Lew"));

@@ -4,15 +4,16 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MaximumLengthDifferenceTest {
-    private final String[] ARR1 = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa",
+public class MaximumLengthDifferenceTest {
+
+    private static final String[] ARR1 = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa",
             "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
-    private final String[] ARR2 = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
-    private final String[] ARR3 = {"ddlleeeegzzznccqq", "ccc", "wwrr", "ggggeettyvnn"};
-    private final String[] ARR4 = {"fffqquu", "mmmmeeeeddll"};
+    private static final String[] ARR2 = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
+    private static final String[] ARR3 = {"ddlleeeegzzznccqq", "ccc", "wwrr", "ggggeettyvnn"};
+    private static final String[] ARR4 = {"fffqquu", "mmmmeeeeddll"};
 
     @Test
-    void maximumLengthDifferenceTest() {
+    public void maximumLengthDifferenceTest() {
         assertEquals(13, MaximumLengthDifference.maximumLengthDifference(ARR1, ARR2));
         assertEquals(-1, MaximumLengthDifference.maximumLengthDifference(new String[] {}, new String[] {}));
         assertEquals(-1,

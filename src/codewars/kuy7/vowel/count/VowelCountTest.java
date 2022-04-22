@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class VowelCountTest {
+public class VowelCountTest {
 
     @Test
-    void vowelCountTest() {
+    public void vowelCountTest() {
         assertEquals(5, VowelCount.vowels("abracadabra"));
         assertEquals(4, VowelCount.vowels("pear tree"));
         assertEquals(0, VowelCount.vowels(""));

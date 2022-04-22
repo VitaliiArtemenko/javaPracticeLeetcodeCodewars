@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SumOfDifferencesTest {
+public class SumOfDifferencesTest {
 
     @Test
-    void sumOfDifferencesTest() {
+    public void sumOfDifferencesTest() {
         assertEquals(9, SumOfDifferences.sumOfDifferences(new int[]{1, 2, 10}));
         assertEquals(2, SumOfDifferences.sumOfDifferences(new int[]{-3, -2, -1}));
         assertEquals(0, SumOfDifferences.sumOfDifferences(new int[]{1, 1, 1, 1, 1}));
