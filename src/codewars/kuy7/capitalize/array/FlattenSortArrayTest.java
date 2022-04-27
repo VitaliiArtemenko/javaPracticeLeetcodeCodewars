@@ -1,4 +1,4 @@
-package flatten.sort.array;
+package capitalize.array;
 
 import org.junit.jupiter.api.Test;
 

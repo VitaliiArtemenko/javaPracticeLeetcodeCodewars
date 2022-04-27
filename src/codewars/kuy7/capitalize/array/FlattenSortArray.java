@@ -1,4 +1,4 @@
-package flatten.sort.array;
+package capitalize.array;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
