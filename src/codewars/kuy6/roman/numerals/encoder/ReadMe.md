@@ -11,6 +11,7 @@ In Roman numerals 1990 is rendered: 1000=M, 900=CM, 90=XC; resulting in MCMXC.
 <h3>Example:</h3>
 <pre>conversion.solution(1000); //should return "M"</pre>
 <h3>Help:</h3>
+
 <pre>
 Symbol    Value
 I          1
