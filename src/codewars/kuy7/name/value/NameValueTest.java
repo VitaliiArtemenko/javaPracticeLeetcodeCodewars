@@ -17,5 +17,6 @@ public class NameValueTest {
                         "dmqkgb", "f dzgpwqzddy", "jncphhfchj"}));
         assertArrayEquals(new int[]{87},NameValue.nameValue(new String[]{"kefooot"}));
         assertArrayEquals(new int[]{87, 2},NameValue.nameValue(new String[]{"kefooot", "      a              "}));
+        assertArrayEquals(new int[]{0},NameValue.nameValue(new String[]{""}));
     }
 }
