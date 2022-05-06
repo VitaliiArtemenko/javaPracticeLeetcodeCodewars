@@ -27,5 +27,6 @@ public class JumpingNumberTest {
         assertEquals("Jumping!!", JumpingNumber.jumpingNumber(8987));
         assertEquals("Jumping!!", JumpingNumber.jumpingNumber(4343456));
         assertEquals("Jumping!!", JumpingNumber.jumpingNumber(98789876));
+        assertEquals("Not!!", JumpingNumber.jumpingNumber(987898766));
     }
 }
