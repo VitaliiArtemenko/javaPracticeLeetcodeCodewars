@@ -24,8 +24,4 @@ public class RectangleIntoSquares {
         squares.add(lng);
         return squares;
     }
-
-    public static void main(String[] args) {
-        System.out.println(sqInRect(731, 230));
-    }
 }
