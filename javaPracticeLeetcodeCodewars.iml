@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/codewars/kuy8" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/codewars/kuy7" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/codewars/kuy6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/codewars/kuy4" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
