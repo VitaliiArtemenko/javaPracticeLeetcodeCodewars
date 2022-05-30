@@ -14,5 +14,6 @@ public class GetXOTest {
         assertFalse(GetXO.getXO("XxxxooO"));
         assertTrue(GetXO.getXO("zssddd"));
         assertFalse(GetXO.getXO("Xxxxertr34"));
+        assertFalse(GetXO.getXO("ODxKoXX"));
     }
 }
