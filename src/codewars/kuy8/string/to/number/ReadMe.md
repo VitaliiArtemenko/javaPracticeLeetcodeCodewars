@@ -1,4 +1,4 @@
-<h1><a href="https://www.codewars.com/kata/57f8ee485cae443c4d000127">Spacify</a></h1>
+<h1><a href="https://www.codewars.com/kata/544675c6f971f7399a000e79">Convert a String to a Number!</a></h1>
 <h2>8 Kuy</h2>
 <hr>
 <h3>Description</h3>
